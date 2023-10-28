@@ -9,7 +9,7 @@ import openpyxl
 import random
 
 # Open the Excel file
-excel_file = r"D:\Facebook Automate\zeker.xlsx"  # Replace with your Excel file's path
+excel_file = r'zeker.xlsx'  # Replace with your Excel file's path
 workbook = openpyxl.load_workbook(excel_file)
 sheet = workbook.active  # Assuming you want to use the active sheet
 
