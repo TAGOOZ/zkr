@@ -2,7 +2,7 @@ name: Selenium Automation
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "*/3 * * * *"
 
 jobs:
   selenium:
