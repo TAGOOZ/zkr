@@ -19,8 +19,8 @@ jobs:
 
       - name: Install Dependencies
         run: pip install -r requirements.txt
-        working-directory: .github/workflows/requirements.txt  # Replace with the directory containing your requirements.txt
+        working-directory: .  # Use . if requirements.txt is in the root directory
 
       - name: Run Selenium Script
-        run: app.py  # Replace with your script's filename
-        working-directory: your_working_directory  # Replace with your script's directory
+        run: python app.py  # Replace with your script's filename
+        working-directory: your_script_directory  # Replace with your script's directory
